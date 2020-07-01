@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/*====== HEADER ======*/
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.menu-bar {
+	display: flex;
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.more {
+	display: none;
+}
+
+.header-left {
+  flex: auto;
+}
+
+.header-right {
+  flex: auto;
+}
+
+.header-right a {
+  line-height: 50px;
+  padding: 0 20px;
+  color: white;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-left a {
+  line-height: 50px;
+  padding: 0 20px;
+  color: white;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-left a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+	display: none;
+	width: 40px;
+	height: 40px;
+	padding-top: 5px;
+}
+
+.title-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(material/smite_website_header.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.title-wrapper h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.title-wrapper p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  background-color: gray;
+  cursor: pointer;
+  box-shadow: 0 7px #000;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.play:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.footer-left {
+	float: left;
+}
+
+.footer-right {
+	float: right;
+}
+
+.footer-right img {
+	padding-top: 20px; 
+	width: 38px;
+	height: auto;
+}
