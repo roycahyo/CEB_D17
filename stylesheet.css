@@ -270,3 +270,71 @@ h7 {
     height: 50px;
     width: 50px;
 }
+
+/* ====== Milik Bagian 3 ======*/
+.heroes {
+	padding-bottom: 50px;
+	background-color: black;
+	text-align: center;
+}
+.heroes-container {
+	max-width: 1170px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.heroes-heading {
+	padding-top: 20px;
+	color: #fff;
+	font-family:"Verdana";
+	font-size:45px;
+	letter-spacing:8px;
+}
+.hero {
+	width: 25%;
+	float: left;
+	height: 820px
+}
+.box {
+	width:96%;
+	height:100%;
+	border: 5px ridge lightgray;
+	margin:0 auto;
+}
+.pic {
+	width:100%;
+	height:70%;
+	margin:0 auto;
+}
+.fighter {
+	background-image: url(https://web2.hirez.com/smite/god-cards/achilles.jpg);
+	background-size:cover;
+}
+.robot {
+	background-image: url(https://web2.hirez.com/smite/god-cards/thanatos.jpg);
+	background-size:cover;
+}
+.elemental-lord {
+	background-image: url(https://web2.hirez.com/smite/god-cards/hera.jpg);
+	background-size:cover;
+}
+.cleric {
+	background-image: url(https://web2.hirez.com/smite/god-cards/change.jpg);
+	background-size:cover;
+}
+.name {
+	width:80%;
+	color:lightgray;
+	display:inline-block;
+	font-size:20px;
+	font-family:"Penumbra Half Serif";
+	letter-spacing:2px;
+}
+.context {
+	width:80%;
+	color:lightgray;
+	display:inline-block;
+	font-size:13px;
+	font-family:"Century Gothic";
+	margin-top:0
+}
