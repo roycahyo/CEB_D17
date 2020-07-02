@@ -24,20 +24,24 @@
 
 @media all and (max-width: 670px) {
 /*  Bagian 1  */
-  .header-right {
-    display: none;
+  .header-right a{
+    font-size: 11px;
+    padding: 0 5px;
   }
-  .logo {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-  }
+
   footer {
     text-align: center;
-    display: flex;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  .footer-left {
+    float: none;
+  }
+  .footer-right {
+    float: none;
   }
   .footer-right img{
-    flex: auto;
+    padding-top: 5px;
   }
   .btn {
     width: 100%;
