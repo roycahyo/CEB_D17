@@ -177,7 +177,7 @@ footer {
 .events-wrapper {
     background-color: #091729;
     padding: 20px auto;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     width: 100%;
 }
 
@@ -185,7 +185,7 @@ footer {
     justify-content: center;
     width: 90%;
     margin: 20px 5%;
-    padding-bottom: 5rem;
+    /*padding-bottom: 5rem;*/
     display: flex;
     flex-wrap: wrap;
 }
