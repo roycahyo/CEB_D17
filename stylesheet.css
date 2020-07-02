@@ -201,7 +201,7 @@ footer {
 
 .events-container a {
     text-decoration: none;
-    margin: 15px 15px;
+    margin: 15px 5px;
 }
 
 .event-box {
@@ -352,6 +352,26 @@ h7 {
 }
 
 /*====== Milik Bagian 4 ======*/
+.page-home_gameModes-container html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.page-home_gameModes-container body {
+  font-family: "Penumbra Flare";
+}
+
+.page-home_gameModes-container li {
+  list-style: none;
+}
+
+.page-home_gameModes-container a {
+  text-decoration: none;
+}
+
+
 .page-home_gameModes-container{
   background-color:#000;
   width:100%;
@@ -362,9 +382,8 @@ h7 {
 .featured-mode{
   color:#85784a;
   text-align:center;
-  font-family:"Penumbra Half Serif"
-  text-decoration:none;
-
+  font-family:"Penumbra Half Serif";
+  text-decoration: none;
 }
 
 .featured-mode h2{
@@ -398,7 +417,7 @@ h7 {
   color:white;
 }
 
-li{
+.details li{
   float:left;
   margin:30px 25px;
   font-size:15px;
@@ -504,7 +523,7 @@ li{
   border: 1px solid #85784a;
 }
 
-h3 {
+.page-home_gameModes-container h3 {
     position: relative;
     top: -10px;
     width: 100%;
