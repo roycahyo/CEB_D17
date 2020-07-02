@@ -48,9 +48,19 @@
   }
   
 /*  Bagian 3  */
-  .hero {
+	.hero {
 		width:100%;
 	}
+	.box {
+		width:70%;
+	}
+	.name {
+		margin:10px auto;
+	}
+	.context {
+		font-size:13px;
+	}
+
 }
 
 /* ==Milik Bagian 2== */
