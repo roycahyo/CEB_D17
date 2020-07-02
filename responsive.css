@@ -74,15 +74,22 @@
 
 @media(max-width: 720px){
     .long {
-        width: 400px;
+        width: 380px;
     }
     .short {
-        width: 400px;
+        width: 380px;
     }
     .events-container a {
         margin: 15px;
     }
     .event-circle, .short .event-circle {
-        left: 170px;
+        left: 160px;
+    }
+}
+
+@media(min-width: 640px){
+    .event-box:hover {
+        transition: all 1s;
+        transform: scale(1.05);
     }
 }
