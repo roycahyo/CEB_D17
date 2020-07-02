@@ -34,6 +34,10 @@
   }
   footer {
     text-align: center;
+    display: flex;
+  }
+  .footer-right img{
+    flex: auto;
   }
   .btn {
     width: 100%;
