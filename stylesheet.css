@@ -167,7 +167,7 @@ footer {
     position: relative;
     text-align: center;
     text-indent: 8px;
-    font-family: "Penumbra Half Serif";
+    font-family: "Cinzel", serif;
     font-size: 2.6rem;
     margin: 0;
     display: block;
@@ -241,7 +241,7 @@ h7 {
     padding-top: 1rem;
     border-top: inherit;
 
-    font-family: "Penumbra Half Serif";
+    font-family: "Cinzel", serif;
     font-size: 1rem;
     font-weight: 100;
     letter-spacing: 3px;
@@ -255,7 +255,7 @@ h7 {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #fff;
+    background-color: #050d1a;
     border: 1px solid #85784a;
     text-align: center;
 }
@@ -266,9 +266,9 @@ h7 {
 
 .event-name .keris {
     position: inherit;
-    top: 5px;
-    height: 50px;
-    width: 50px;
+    top: 7px;
+    height: 40px;
+    width: 40px;
 }
 
 /* ====== Milik Bagian 3 ======*/
