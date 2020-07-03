@@ -72,7 +72,7 @@
 }
 
 /* ==Milik Bagian 2== */
-@media(max-width: 1200px){
+@media(min-width: 720px){
     .long {
         width: 610px;
     }
@@ -88,9 +88,18 @@
     .short .event-circle {
         left: 112.5px;
     }
+    .event-box:hover {
+        transition: all 1s;
+        transform: scale(1.05);
+    }
+    .events-container a {
+	margin: 15px 15px;
+    }
+    .event-box:hover .event-circle {
+	display: none;
 }
 
-@media(max-width: 720px){
+@media(max-width: 719px){
     .long {
         width: 380px;
     }
@@ -102,13 +111,6 @@
     }
     .event-circle, .short .event-circle {
         left: 160px;
-    }
-}
-
-@media(min-width: 640px){
-    .event-box:hover {
-        transition: all 1s;
-        transform: scale(1.05);
     }
 }
 
