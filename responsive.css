@@ -116,7 +116,7 @@
 
 /* Layout untuk Tablet */
 @media (max-width: 1000px) {
-.long {
+.arena-box .long {
   width:40%;
   overflow: hidden;
   flex-wrap: wrap;
@@ -190,7 +190,7 @@
 /* Layout untuk Smartphone */
 @media (max-width:670px) {
 
-  .long {
+  .arena-box .long {
   width:82%;
   height:150px;
   flex-wrap: wrap;
