@@ -396,6 +396,7 @@ h1, h2, h3, h4, h5, h6, p, div {
   font-weight: 400;
   letter-spacing: 8px;
   position: relative;
+  left:80px;
   text-align: center;
   text-indent: 8px;
   font-family: "Penumbra Half Serif";
@@ -406,10 +407,10 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 .about {
   color:white;
-  width:60%;
-  font-size:15px;
+  width:50%;
+  font-size:12px;
   position:relative;
-  left:255px;
+  left:380px;
 }
 
 .details span{
@@ -425,17 +426,21 @@ h1, h2, h3, h4, h5, h6, p, div {
   margin:30px 25px;
   font-size:15px;
   position:relative;
-  left:360px;
+  left:380px;
 }
 
 .containerAtas {
   background-image: url(https://web2.hirez.com/smite/v3/img/gamemodes-bg-arena.jpg);
   background-size:cover;
   width:100%;
-  height:400px;
+  height:600px;
+  transform:scale(1.5);
+  position:relative;
+  left:-120px;
+  top:150px;
 }
 .headerArenaTengah {
-  padding-top: 40px;
+  padding-top: 30px;
   color: #fff;
   font-weight: 400;
   letter-spacing: 8px;
@@ -443,10 +448,12 @@ h1, h2, h3, h4, h5, h6, p, div {
   text-align: center;
   text-indent: 8px;
   font-family: "Penumbra Half Serif";
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   margin: 0;
   display: block;
   box-sizing: border-box;
+  position:relative;
+  left:90px;
 }
 
 .headerArena {
@@ -470,7 +477,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 .long {
-  width:580px;
+  width:530px;
   overflow: hidden;
 }
 
@@ -564,7 +571,7 @@ h1, h2, h3, h4, h5, h6, p, div {
   font-family: "Penumbra Half Serif";
   font-size: 20px;
   position:relative;
-  left:470px;
+  left:435px;
 }
 
 .btn-gameModes:hover {
@@ -576,4 +583,10 @@ h1, h2, h3, h4, h5, h6, p, div {
   box-shadow:none;
   position:relative;
   top:7px;
+}
+.details {
+  display:flex;
+}
+.details p {
+  flex:auto;
 }
